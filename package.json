@@ -1,0 +1,32 @@
+{
+  "name": "database-engine-playground",
+  "version": "1.0.0",
+  "description": "A static, gamified drag-and-drop playground for learning how PostgreSQL and MySQL-family database engines are put together.",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "AnikethSD <anikethsdeshpande@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnikethSD/database-playground.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "check": "node --check src/data/components.js && node --check src/data/workloads.js && node --check src/data/missions.js && node --check src/core/engine.js && node --check src/ui/app.js",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "test:ui": "node tests/ui/run-ui-tests.mjs",
+    "test:all": "npm run check && npm test && npm run test:ui"
+  },
+  "keywords": [
+    "postgresql",
+    "mysql",
+    "mariadb",
+    "database-internals",
+    "education",
+    "game",
+    "pgvector",
+    "storage-engines"
+  ]
+}
