@@ -122,32 +122,32 @@ Several stories include tempting "speed" suggestions, such as `fsync = off`, `sy
 
 | # | Mission | Company | Category | Family | Level |
 | --: | :-- | :-- | :-- | :-- | :-- |
-| 1 | 🛒 Checkout that never loses an order | Tern Retail | Transactions | PostgreSQL | Associate |
-| 2 | 📈 IoT firehose | Voltra Grid | Time-series | PostgreSQL | Professional |
-| 3 | 🤖 RAG chatbot over 10M chunks | HelpHive | AI & vectors | PostgreSQL | Professional |
-| 4 | ⚡ Nightly load in 10 minutes | Ledgerline | Analytics | PostgreSQL | Professional |
-| 5 | 🧊 7-year compliance archive | Meridian Bank | Storage & tiering | Either | Professional |
-| 6 | 🔎 Typo-tolerant product search | Trailhead Outfitters | Search | PostgreSQL | Associate |
-| 7 | 🛵 Nearest courier in 50 ms | Swiftcourier | Geo & ranges | PostgreSQL | Professional |
-| 8 | 🏨 No double bookings, ever | Staylio | Geo & ranges | PostgreSQL | Expert |
-| 9 | 🏦 Zero-loss payments ledger | Coinvault | Reliability | MySQL family | Expert |
-| 10 | 🧩 Serverless connection storm | Pipewise | Transactions | PostgreSQL | Associate |
-| 11 | 📊 Dashboards over 2 billion events | Metricly | Analytics | Either | Professional |
-| 12 | 🔥 Analytics without ETL | Fintrail | Analytics | MySQL family | Professional |
-| 13 | 🪨 Write-heavy social feed | Chirpline | Storage & tiering | MySQL family | Expert |
-| 14 | 🎮 Game session store | Pixelforge | Transactions | PostgreSQL | Professional |
-| 15 | ⚖️ Half a billion legal embeddings | Lexora | AI & vectors | PostgreSQL | Expert |
-| 16 | 🏥 Clinical RAG on MariaDB | Carewell Health | AI & vectors | MySQL family | Professional |
-| 17 | 🪶 Filtered semantic search per tenant | Quillstack | AI & vectors | PostgreSQL | Expert |
-| 18 | 🗂️ Rolling 90-day log retention | Streamcast | Storage & tiering | MySQL family | Professional |
-| 19 | 🛰️ Query the data lake from Postgres | Orbital Ads | Analytics | PostgreSQL | Professional |
-| 20 | 📡 Stream changes to the warehouse | Parcelly | Reliability | Either | Associate |
-| 21 | ⚓ Silent corruption on flaky power | Harborline | Reliability | PostgreSQL | Professional |
-| 22 | ✈️ Cold cache after failover | Kestrel Air | Transactions | MySQL family | Associate |
-| 23 | 🏷️ Filter by JSON tags on MySQL | Bazaar Market | Search | MySQL family | Professional |
-| 24 | ☕ Store locator on MySQL | Brewtown Coffee | Geo & ranges | MySQL family | Associate |
+| 1 | 🛒 Checkout that never loses an order | Satan City Mart | Transactions | PostgreSQL | Associate |
+| 2 | 📈 IoT firehose | Capsule Grid | Time-series | PostgreSQL | Professional |
+| 3 | 🤖 RAG chatbot over 10M chunks | Shenron Support | AI & vectors | PostgreSQL | Professional |
+| 4 | ⚡ Nightly load in 10 minutes | Zeni Ledger | Analytics | PostgreSQL | Professional |
+| 5 | 🧊 7-year compliance archive | Fire Country Bank | Storage & tiering | Either | Professional |
+| 6 | 🔎 Typo-tolerant product search | Tenten Outfitters | Search | PostgreSQL | Associate |
+| 7 | 🛵 Nearest courier in 50 ms | Pakkun Courier | Geo & ranges | PostgreSQL | Professional |
+| 8 | 🏨 No double bookings, ever | Kame House Stays | Geo & ranges | PostgreSQL | Expert |
+| 9 | 🏦 Zero-loss payments ledger | Senzu Vault | Reliability | MySQL family | Expert |
+| 10 | 🧩 Serverless connection storm | Chakra Cloud | Transactions | PostgreSQL | Associate |
+| 11 | 📊 Dashboards over 2 billion events | Scouter Metrics | Analytics | Either | Professional |
+| 12 | 🔥 Analytics without ETL | Byakugan Finance | Analytics | MySQL family | Professional |
+| 13 | 🪨 Write-heavy social feed | Leaf Village Social | Storage & tiering | MySQL family | Expert |
+| 14 | 🎮 Game session store | Budokai Games | Transactions | PostgreSQL | Professional |
+| 15 | ⚖️ Half a billion legal embeddings | Hokage Legal | AI & vectors | PostgreSQL | Expert |
+| 16 | 🏥 Clinical RAG on MariaDB | Konoha Hospital | AI & vectors | MySQL family | Professional |
+| 17 | 🪶 Filtered semantic search per tenant | Sage Scrolls | AI & vectors | PostgreSQL | Expert |
+| 18 | 🗂️ Rolling 90-day log retention | Namek Streams | Storage & tiering | MySQL family | Professional |
+| 19 | 🛰️ Query the data lake from Postgres | Frieza Ads | Analytics | PostgreSQL | Professional |
+| 20 | 📡 Stream changes to the warehouse | Akatsuki Parcels | Reliability | Either | Associate |
+| 21 | ⚓ Silent corruption on flaky power | Kirigakure Harbor | Reliability | PostgreSQL | Professional |
+| 22 | ✈️ Cold cache after failover | Flying Nimbus Air | Transactions | MySQL family | Associate |
+| 23 | 🏷️ Filter by JSON tags on MySQL | Orange Star Bazaar | Search | MySQL family | Professional |
+| 24 | ☕ Store locator on MySQL | Ichiraku Coffee | Geo & ranges | MySQL family | Associate |
 
-Companies and people in the case studies are fictional. See [docs/authoring-missions.md](docs/authoring-missions.md) to write your own.
+Companies and people in the case studies are fictional. Their names are borrowed from the **Naruto** and **Dragon Ball Z** universes (Capsule Corp, Konoha Hospital, Kakashi Hatake, Bulma Briefs…) purely as recognisable placeholders, so no real company or person is ever quoted. See [docs/authoring-missions.md](docs/authoring-missions.md) to write your own.
 
 ## Project structure
 
@@ -228,4 +228,4 @@ Contributions are welcome, especially new case studies and corrections to compon
 
 Licensed under the [Apache License, Version 2.0](LICENSE).
 
-*PostgreSQL, MySQL, MariaDB, Percona, HeatWave, TimescaleDB and other names are trademarks of their respective owners. This is an independent educational project, not affiliated with any of them. Capability scores are deliberately simplified teaching heuristics, not benchmarks.*
+*PostgreSQL, MySQL, MariaDB, Percona, HeatWave, TimescaleDB and other names are trademarks of their respective owners. This is an independent educational project, not affiliated with any of them. Capability scores are deliberately simplified teaching heuristics, not benchmarks. Naruto characters and entities are the property of Masashi Kishimoto / Shueisha; Dragon Ball Z characters and entities are the property of Akira Toriyama / Bird Studio / Shueisha / Toei Animation. They appear here only as fictional placeholder names in educational case studies; no affiliation or endorsement is implied.*

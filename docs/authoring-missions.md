@@ -9,7 +9,7 @@ Missions live in [`src/data/missions.js`](../src/data/missions.js). A good missi
   id: 'warm',                    // unique, kebab/lowercase
   icon: '✈️',                    // one emoji, shown in a tile tinted by category
   n: 'Cold cache after failover',// title
-  co: 'Kestrel Air',             // fictional company
+  co: 'Flying Nimbus Air',             // fictional company
   cat: 'oltp',                   // one of MISSION_CATS: oltp, analytics, ai, timeseries, storage, search, geo, reliability
   family: 'my',                  // 'pg' | 'my' | 'any' (the player chooses)
   lvl: 1,                        // 1 Associate · 2 Professional · 3 Expert
@@ -17,7 +17,7 @@ Missions live in [`src/data/missions.js`](../src/data/missions.js). A good missi
   story: ['Company overview…', 'The situation…'],   // paragraphs
   reqs: ['…', '…'],              // business & technical requirements (include 1–2 red herrings)
   quote: { who: 'Name, Title', t: '…' },
-  q: 'How should Kestrel Air configure InnoDB memory for fast warm-up?',
+  q: 'How should Flying Nimbus Air configure InnoDB memory for fast warm-up?',
   checks: [                      // hidden goals, evaluated live against analyze() output
     { t: 'Buffer pool warm-up after restart', f: (r) => has(r, 'my_bpdump', 'pg_prewarm') },
     min('oltp', 'Transactions (OLTP)', 90),
@@ -52,7 +52,7 @@ Two more sections are kept in lookup tables at the bottom of the file, keyed by 
 - [ ] Add **1–2 irrelevant requirements** ("the UI team is adopting dark mode").
 - [ ] Every check should be **necessary**: the reference answer passes it, and a plausible wrong answer fails it.
 - [ ] The **debrief** explains *why*, including why each trap is wrong.
-- [ ] Use **fictional** companies and people.
+- [ ] Use **fictional** companies and people — by convention, names from the **Naruto** or **Dragon Ball Z** universes (e.g. `Capsule Corp`, `Hyuga Logistics`, `Kakashi Hatake`). Never a real company, person or product.
 
 ## Verify
 

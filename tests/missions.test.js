@@ -55,8 +55,8 @@ test('the obvious traps fail the missions that warn about them', () => {
   assert.ok(fails('checkout', 'pg', [...byId.checkout.answer.pg, 'pg_synccommit']));
   // Bulk load: fsync = off is the "nuclear option" the story rules out.
   assert.ok(fails('bulk', 'pg', [...byId.bulk.answer.pg, 'pg_fsyncoff']));
-  // Harborline: full_page_writes = off removes torn-page protection.
+  // Kirigakure Harbor: full_page_writes = off removes torn-page protection.
   assert.ok(fails('harbor', 'pg', [...byId.harbor.answer.pg, 'pg_fpwoff']));
-  // Coinvault: relaxed flushing violates RPO = 0.
+  // Senzu Vault: relaxed flushing violates RPO = 0.
   assert.ok(fails('ledger', 'my', [...byId.ledger.answer.my, 'my_flush2']));
 });
